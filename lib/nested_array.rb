@@ -38,7 +38,7 @@ end
 
 def matrix_update(matrix, row, column, new_value)
   binding.pry
-  matrix[row][column] = "new_value"
+  matrix[row][column] = ("new_value")
   matrix_update
  
 end
